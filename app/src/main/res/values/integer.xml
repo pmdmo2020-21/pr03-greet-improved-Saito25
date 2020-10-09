@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="main_integer_maxGreet">10</integer>
+    <integer name="main_integer_maxChars">20</integer>
+</resources>

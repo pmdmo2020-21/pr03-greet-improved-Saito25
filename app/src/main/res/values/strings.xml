@@ -1,3 +1,21 @@
 <resources>
-    <string name="app_name">Greet Improved</string>
+    <string name="app_name">Greet</string>
+    <string name="main_greet">Greet</string>
+    <string name="btn_main_greet">Greet</string>
+    <string name="pgs_main_d_of_10">%1$d of %2$d</string>
+    <string name="chk_main_politely">Politely</string>
+    <string name="txt_main_buy_premium">Illo, comprate una subcripcioncita, que las tengo baratitas.</string>
+    <string name="txt_main_d_of_10">%d of %d</string>
+    <string name="swt_main_premium">Premium</string>
+    <string name="rb_main_mr">mr</string>
+    <string name="rb_main_mrs">mrs</string>
+    <string name="rb_main_ms">ms</string>
+    <string name="txt_main_tratamineto">Tratamiento</string>
+    <string name="txt_main_saludoFormal">Buenos días %1$s %2$s %3$s. Encantado de conocerlo</string>
+    <string name="txt_main_saludoInformal">¡Qué hay %1$s %2$s!</string>
+    <string name="txt_main_name">Nombre</string>
+    <string name="txt_main_apellidos">Apellidos</string>
+    <string name="img_main_face">Imagen simple con la cara de una persona</string>
+    <string name="etxt_main_required">Requerido</string>
+
 </resources>
