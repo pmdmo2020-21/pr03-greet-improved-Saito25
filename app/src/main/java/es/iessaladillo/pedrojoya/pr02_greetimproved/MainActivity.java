@@ -138,6 +138,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void afterTextChanged(Editable s) {
                 checkValueOfForm(binding.etxtMainName);
+                updateChars(binding.txtMainNameChars, s);
             }
         };
 
@@ -155,8 +156,16 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void afterTextChanged(Editable s) {
                 checkValueOfForm(binding.etxtMainLastName);
+                updateChars(binding.txtMainLastNameChars, s);
             }
         };
+    }
+
+    private void updateChars(TextView txtMainNameChars, CharSequence s) {
+        int total = maxCharsForEditext - s.length();
+        txtMainNameChars.setText(getResources()
+                .getQuantityString(R.plurals.txt_main_name_times, total, total));
+
     }
 
     /**
